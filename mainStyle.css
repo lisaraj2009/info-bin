@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+}
+body {
+    padding: 5px;
+}
+a.nav-link{ 
+    padding-left: 10px;
+    padding-right: 10px; 
+    color: #000000;
+}
+a.nav-link:link {
+    text-decoration: none;
+    color: #000000;
+}
+  
+a.nav-link:visited {
+    text-decoration: none;
+    color: #000000;
+}
+a.nav-link:hover { 
+    /*background-color: #D9D6B6;*/
+    text-decoration: none;
+    font-size: 25px;
+}
+/*a.nav-link:nth-child(odd){ 
+    background-color: #EDEAE1;
+}
+a.nav-link:nth-child(even) { 
+    background-color: #fffde4;
+}*/
+a#title-nav:link{ 
+    font-size: 50px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(29, 12, 0);
+}
+a#title-nav:visited { 
+    text-decoration: none;
+    color: rgb(29, 12, 0);
+}
+/*.yt-link {
+    background-color: white;
+    color: royalblue;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center; 
+    top: 30px;
+    left: 50%;
+}
+.yt-link:hover {
+    background-color: rgb(255, 213, 213);
+    text-decoration: none;
+}*/
+section.who-we-are { 
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.intro {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 150px;
+    background-color: rgba(255, 255, 255, 50);
+    background-image: url('infobin.jpg');
+    padding: 30px;
+    color: white;
+    background-position: left top;
+    
+}
+/*.yt-button-link { 
+    text-align: center;
+}
+.yt-button-child { 
+    display: inline-block;
+}*/
+#title-nav { 
+    font-family: 'Rowdies', cursive;
+    font-size: 2em;
+    display: inline-block;
+}
+.who-we-are-text { 
+    width: 500px;
+    font-size: 30px;
+}
+
+body { 
+    background-color: rgb(239, 239, 239);
+}
+nav { 
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    /*background-color: #EDEAE1;*/
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    /*float: right;*/
+    top: 30px;
+    right: 30px;
+    background-color: white;
+    left: 25%;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+header { 
+    background-color: white;
+    position: sticky;
+}
+.title-parent { 
+    text-align: center;
+}
+.who-are-we-heading { 
+    text-align: center;
+    display: block;
+}
